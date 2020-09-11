@@ -10,7 +10,6 @@ namespace Lab_OOP_1
             float num;
             if (float.TryParse(input, out num))
             {
-                num = float.Parse(input);
                 return num;
             }
             else
